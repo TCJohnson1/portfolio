@@ -2107,6 +2107,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+			border-radius: 40%;
 		}
 
 		.image.left {
@@ -2140,7 +2141,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 10%;
 		}
 
 			.image.avatar:before {
@@ -2148,7 +2149,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 50%;
 				width: 100%;
 			}
 
@@ -2597,9 +2598,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #05060f;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/ATX.jpg");
+		background-image: url("images/overlay.png"), url("../../images/ATX2.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2646,7 +2647,9 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 9em;
+			height: 9.5em
+			
 		}
 
 /* Footer */
@@ -3083,7 +3086,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #0b111b;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
